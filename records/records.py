@@ -81,9 +81,7 @@ class Records:
         self.json = json.dumps(alldata)
         self.df = pd.json_normalize(alldata)
 
-        
-        return self.json
-
+       
 
 # demo for testing
     #rec = Records(genusKey=1340278, year="1980,1985")
